@@ -19,6 +19,10 @@ a,
   a:hover {
     /* background-color: hsla(160, 100%, 37%, 0.2); */
   }
+  button:hover{
+    color: var(--vt-c-white);
+    transition: 0.4s;
+  }
 }
 
 @media (min-width: 1024px) {
