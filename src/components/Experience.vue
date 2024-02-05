@@ -1,8 +1,8 @@
 <script setup>
 </script>
 <template>
-    <div class="exp flex justify-around mt-20">
-        <div class="text my-auto w-1/3">
+    <div class="exp md:flex justify-around mt-20 space-y-10 md:space-y-0">
+        <div class="text my-auto text-center md:text-left md:w-1/3">
             <h2 class="text-3xl my-auto">Experience</h2>
         </div>
         <div class="content">
@@ -40,8 +40,8 @@
         </div>
     </div>
     <div class="line w-3/4 h-1 mx-auto bg-zinc-700 rounded-full mt-20 mb-20"></div>
-    <div class="edu flex justify-around">
-        <div class="text my-auto w-1/3">
+    <div class="edu md:flex justify-around space-y-10 md:space-y-0">
+        <div class="text my-auto text-center md:text-left md:w-1/3">
             <h2 class="text-3xl my-auto">Education</h2>
         </div>
         <div class="content">

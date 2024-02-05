@@ -28,7 +28,7 @@ function scrollcon() {
 <template>
   <header class="flex justify-around space-x-28">
     <div class="logo p-5 flex"><a href="#"><img class="" width="150" src="/Mohamed.svg"></a></div>
-    <div class="nav p-5 space-x-10">
+    <div class="nav hiddenm p-5 space-x-10">
       <button @click="scroll" class="text-xl">About Me</button>
       <button @click="scrollexp" class="text-xl">Experience</button>
       <button @click="scrollexpr" class="text-xl">Expertise</button>

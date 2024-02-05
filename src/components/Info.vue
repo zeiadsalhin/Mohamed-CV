@@ -1,13 +1,14 @@
 <script setup>
 </script>
 <template>
-    <div class="info main flex mt-10 p-5 w-full">
-        <div class="text w-1/2 my-auto mr-20">
-            <h1 class="text-5xl leading-snug">Hi, I am Mohamed Khaled, a Data Scientist</h1>
-            <button class="p-4 mt-10 text-xl bg-gray-800 rounded-xl l"><a href="mailto:mohamedkhaled12800@gmail.com">Email
+    <div class="info main md:flex mt-10 p-5 w-full">
+        <div class="text md:w-1/2 my-auto md:mr-20">
+            <h1 class="md:text-5xl text-2xl leading-snug">Hi, I am Mohamed Khaled, a Data Scientist</h1>
+            <button class="p-4 mt-10 mb-10 text-xl bg-gray-800 rounded-xl l"><a
+                    href="mailto:mohamedkhaled12800@gmail.com">Email
                     me</a></button>
         </div>
-        <div class="image w-1/2">
+        <div class="image md:w-1/2 mb-5">
             <img class="w-full mx-auto rounded-3xl" width="" src="/mohamed.jpg">
         </div>
     </div>
